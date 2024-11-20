@@ -1,0 +1,33 @@
+@import "normal.css";
+body{
+    display:flex;
+    flex-direction: column;    
+    align-items: center;
+}
+h1.active#title::after{
+    content: " loadings...";
+}
+h1#title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:150px;
+}
+#container{
+    padding:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#result{
+    border:1px solid black;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding:50px;
+}
+#result h1{
+    width:100%;
+    border-bottom: 1px solid black;
+}
